@@ -2,7 +2,7 @@
 ## Lab 1 Report
 ### 1. `cd` with no argument
 ![Image](cd_no_arg1.png)<br />
-* working directory: `/home`
+* working directory: `/home/lecture1/messages`
 * There are no output, because `cd` means change directory and will not give output. Also, the directory changes from the working directory to the `~` directory, which is `/home` directory. Therefore, if we provide no argument for `cd`, it will change the current directory to the `/home` directory.
 * The output is not an error. `cd` nothing means changing the current directory to the `/home` directory.
 
@@ -37,10 +37,10 @@
 * Although I am not sure, I do not think this is an error. I think `ls` used with a file should print its directory starting from the working directory.
 
 ### 7. `cat` with no argument
-![Image](cat_no_arg.png)
-* working directory: `/home`
-* There is no output. However, the terminal kept running until I click on `ctrl+C` to stop it. Therefore, there is no output if I use `cat` with no argument. This will keep the terminal running.
-* It is an error, because `cat` with no argument keeps terminal running and does not stop. `cat` reads data from the file passed as an argument and prints the content. However, since we do not pass in any argument, `cat` cannot read anything and thus error occurs.
+![Image](cat_no_arg1.png)
+* working directory: `/home/lecture1/messages`
+* There is no output. However, the terminal kept running and waited for user input. After I used `cat` withouth any argument, the terminal will go to a new line and waited for input. If I typed anything on the keyboard as input and pressed enter, the thing I typed will be displayed on the terminal again, which means that the terminal will repeat the input once. Then the terminal waited for input again. This process only stopped when I clicked on `ctrl+C`. Therefore, if I use `cat` with no argument, it will keep the terminal running and waiting for user input. If the terminal gets input from user, the terminal will repeat the input once and wait for a new input until the user stops this process by `ctrl+C`.
+* It is not an error. `cat` without argument keeps the terminal running and waiting for user input and repeating the input once if it gets one until the user stops this process. I think this is they way how `cat` is designed for cases with no argument.
 
 ### 8. `cat` with directory argument
 ![Image](cat_arg_dir.png)
