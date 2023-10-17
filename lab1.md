@@ -3,8 +3,8 @@
 ### 1. `cd` with no argument
 ![Image](cd_no_arg.png)<br />
 * working directory: `/home`
-* There are no output, because `cd` means change directory and will not give output. Also, the directory does not change because there is no argument for `cd`, which is like `cd .`, which means does not change directory or change the directory to the current directory.
-* The output is not an error. `cd` nothing just means that does not change the directory.
+* There are no output, because `cd` means change directory and will not give output. Also, the directory changes from the working directory to the `/home` directory. Therefore, if we provide no argument for `cd`, it will change the current directory to the `/home` directory.
+* The output is not an error. `cd` nothing means changing the current directory to the `/home` directory.
 
 ### 2. `cd` with directory argument
 ![Image](cd_arg_dir.png)<br />
