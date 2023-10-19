@@ -62,4 +62,4 @@ logging into ieng6 computer without a asking for a password
 ![Image](no_password.png)<br />
 
 ### Part 3
-I have learned a way to set up a private password for SSH so that I do not need to enter my password every time I log into the school computers. I have also learned how to create a github pages by using markdown language, which is really fun. I have learned how to use some new unix commands `cat` and `man`.
+I learned a way to set up a private password for SSH so that I do not need to enter my password every time I log into the school computers. I also learned how to create a github pages by using markdown language, which is really fun. I learned how to use some new unix commands `cat` and `man`. I learned how the url works, including the domain, path, query, and anchor. I learned to use query to change some features demonstrated on the webpage.
