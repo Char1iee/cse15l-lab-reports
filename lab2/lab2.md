@@ -1,5 +1,6 @@
 # CSE15L Lab Report Charlie Shang
 ## Lab 2 Report
+### Part 1
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -52,9 +53,13 @@ class StringServer {
 * The argument of `handleRequest` is a URI object which is the url of the website. For this screenshot the argument is `https://localhost:4000/add-message?s=lab%20report%202`. I actually input `/add-message?s=lab report 2`, and I think the server automatically uses escape character to represent space, which is `%20`. The values of the class include a String called `words` that records the input from the user by using the `add-message` query. `words` now is `hi\n2. what's up\n3. yoyo\n4. cse15\n5. lab report 2\n`. There is another value called `count` which is an integer that counts the number of string the user gives to the server. This counter also works to provide the index of string that shows on the website. `count` now is 5.
 * Both `words` and `count` changes. Since I input the `/add-message?s=lab%20report%202`, `words` changes from `hi\n2. what's up\n3. yoyo\n4. cse15\n` to `hi\n2. what's up\n3. yoyo\n4. cse15\n5. lab report 2\n`. `count` also changes from 4 to 5 because there are previously 4 strings and now I input a new one which makes the number of strings to 5.
 
-### private key for my SSH on my local computer 
+### Part 2
+private key for my SSH on my local computer 
 ![Image](private_key.png)<br />
-### public key for my SSH on the ieng6 computer
+public key for my SSH on the ieng6 computer
 ![Image](public_key.png)<br />
-### logging into ieng6 computer without a asking for a password
+logging into ieng6 computer without a asking for a password
 ![Image](no_password.png)<br />
+
+### Part 3
+I have learned a way to set up a private password for SSH so that I do not need to enter my password every time I log into the school computers. I have also learned how to create a github pages by using markdown language, which is really fun. I have learned how to use some new unix commands `cat` and `man`.
