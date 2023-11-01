@@ -54,10 +54,12 @@ class StringServer {
 * Both `words` and `count` changes. Since I input the `/add-message?s=lab%20report%202`, `words` changes from `hi\n2. what's up\n3. yoyo\n4. cse15\n` to `hi\n2. what's up\n3. yoyo\n4. cse15\n5. lab report 2\n`. `count` also changes from 4 to 5 because there are previously 4 strings and now I input a new one which makes the number of strings to 5.
 
 ### Part 2
-private key for my SSH on my local computer 
-![Image](private_key.png)<br />
-public key for my SSH on the ieng6 computer
-![Image](public_key.png)<br />
+private key for my SSH on my local computer <br />
+/Users/charlieshang/.ssh/id_rsa
+![Image](private_key_c.png)<br />
+public key for my SSH on the ieng6 computer <br />
+/home/linux/ieng6/cs15lfa23/cs15lfa23sr/.ssh/authorized_keys
+![Image](public_key_c.png)<br />
 logging into ieng6 computer without a asking for a password
 ![Image](no_password.png)<br />
 
