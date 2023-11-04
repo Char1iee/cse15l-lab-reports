@@ -92,8 +92,8 @@ public class ArrayExamples {
 I make the `for` loop just go over half of the array, and in every iteration, the program changes element at the current index as well as its corresponding index at the second half of the array. Therefore when `i=0`, the program switches the element stored at index `0` and index `n-i-1` which is `n-1` which is the last index. Also, the program now does not assign values directly. It first stores the element at the current index to a temporary variable such that when we switch the values at the two indexes, we make sure that we are switching the original values instead of the altered ones just as the what the buggy program does. This program stores the value in a temporary variable, and then assigns the value stored in the corresponding index of the second half of the array to the current index of the first half of the array, and then store the temporary variable, which is the original value at the index of the first half of the array, to the index at the second half of the array. Therefore, the switch completes. Going over just half of the array in the `for` loop is because during one iteration we already switches the array at the first and second half of the arrays and we do not want to switch back when going over the second half of the array.
 
 ### Part 2
-I choose `grep` and the four command-line options include `-v -w `
-1. 1st example of `-v`
+I choose `grep` and the four command-line options include `-v -w `<br />
+1. 1st example of `-v`<br />
 The command line code is the following:
 ```
 find ./technical/ | grep -v '.txt'
@@ -103,7 +103,7 @@ The output is the following:
 What this line does is to first find the name of all the directories and files under `./technical` and use them as input for `grep`. `grep` will find everything that does not contain `.txt`. The command-line option `-v` means invert matching. It makes `grep` outputs everything does is not matching the given pattern.
 This is useful when we want to find some files with extention other than `.txt`. Furthermore, we can find files or directories by setting up a starndard about what we do not want to find, and the command-line option `-v` does this job.
 
-2. 2nd example of `-v`
+2. 2nd example of `-v`<br />
 The command line code is the following:
 ```
 find ./technical/ | grep -v 'biomed'
@@ -115,7 +115,7 @@ This is useful when we have too many files that have similar names and want to f
 
 [source:https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
 
-3. 1st example of `-w`
+3. 1st example of `-w`<br />
 The command line code is the following:
 ```
 grep -w 'do' ./technical/911report/chapter-1.txt
@@ -125,7 +125,7 @@ The output is the following:
 What this line does is to find all the lines that contains the separate word `do` in the file `./technical/911report/chapter-1.txt`. The command-line option `-w` means find the given pattern as a whole word.
 This is useful when some files contain ambiguous words such as do and doing. Command-line option `-w` is useful when we just want to find single whole words.
 
-4. 2nd example of `-w`
+4. 2nd example of `-w`<br />
 The command line code is the following:
 ```
 grep -w 'hostile' ./technical/911report/chapter-1.txt
@@ -137,7 +137,7 @@ This is useful when we just want to find how a given pattern occurs separately a
 
 [source:https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
 
-5. 1st example of `-c`
+5. 1st example of `-c`<br />
 The command line code is the following:
 ```
 grep -w -c 'do' ./technical/911report/chapter-1.txt
@@ -147,7 +147,7 @@ The output is the following:
 What this line does is to find all the lines that contains the separate word `do` in the file `./technical/911report/chapter-1.txt`. However, instead of printing the lines that contain the separate word `do`. It prints the count of the number of lines in the output. For this example, since there are 15 lines that contain `do` as a whole word, the output is 15.
 This is useful when some large files that contain too many lines that match the given pattern and we just want to see the number of lines that contain the pattern.
 
-6. 2nd example of `-c`
+6. 2nd example of `-c`<br />
 The command line code is the following:
 ```
 grep -w -c 'hostile' ./technical/911report/chapter-1.txt
@@ -159,7 +159,7 @@ This is useful when we just want to find out the number of a given pattern in a 
 
 [source:https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
 
-7. 1st example of `-n`
+7. 1st example of `-n`<br />
 The command line code is the following:
 ```
 grep -w -n 'good' ./technical/911report/chapter-1.txt
@@ -169,7 +169,7 @@ The output is the following:
 What this line does is to find all the lines that contains the separate word `good` in the file `./technical/911report/chapter-1.txt`. Besides printing the content of lines that contain this whole word, it will also print the line number of the found lines.
 This is useful when we want to target the location of the lines which contain the given pattern. This allows us to access the found lines easily.
 
-8. 2nd example of `-n`
+8. 2nd example of `-n`<br />
 The command line code is the following:
 ```
 grep -w -n 'hostile' ./technical/911report/chapter-1.txt
