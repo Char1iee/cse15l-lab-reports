@@ -15,7 +15,7 @@ Steps are the following:
 
 4. Log into ieng6 <br />
 ![Image](lab4/4.png)<br />
-The keys I pressed:
+The keys I pressed: <br />
 I pressed `ssh cs15lfa23sr@ieng6.ucsd.edu` and then pressed `<enter>`<br/>
 I typed `ssh` and my account to ssh connect to the school computer. The `<enter>` key is just to enter the command to the terminal.
 
