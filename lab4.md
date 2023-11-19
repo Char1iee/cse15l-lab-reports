@@ -24,7 +24,7 @@ I typed `ssh` and my account to ssh connect to the school computer. The `<enter>
 ![Image](lab4/52.png)<br />
 The keys I pressed:<br />
 I first went to the webpage of my repository of lab7 and select the ssh link of the repo and pressed `<ctrl>c`. Then I went to the terminal and typed `git clone` and pressed `<ctrl>v` and pressed `<enter>`.<br />
-The first `<ctrl>c` command is to copy the ssh link of the repo so that I do not need to type it for a long time on the terminal. The `git clone ` I typed is to clone this repository to my local computer. The `<ctrl>v` is to paste the ssh link of the repository to the terminal. The `<enter>` is to enter the command to the terminal.
+The first `<ctrl>c` command is to copy the ssh link of the repo so that I do not need to type it for a long time on the terminal. The `git clone` I typed is to clone this repository to my local computer. The `<ctrl>v` is to paste the ssh link of the repository to the terminal. The `<enter>` is to enter the command to the terminal.
 
 6. Run the tests, demonstrating that they fail<br />
 ![Image](lab4/6.png)<br />
