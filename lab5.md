@@ -52,3 +52,5 @@ The content of `TestListExamples.java` after fixing the bug is the following:<br
 The result of running tests on the modified files after fixing the bug is the following:<br />
 ![Image](lab5/11.png)<br />
 
+### Part 2
+In the second half of the course, I learned how to write shell scripts so that I do not need to type commands on the terminal redundantly. I also learned that bash script can be used to fulfill specific purposes such as gradescope grading. I also learned how to effectively use command lines to edit files using vim editor and to use git commands to manage my local repository as well as remote repository on github, which is pretty useful especially when I enter the industry in the future. Another thing I have learned is to use debugger to debug my program. The jdb is very useful in the sense that I can easily go through the process of debugging with it and figure out where the program goes wrong.
