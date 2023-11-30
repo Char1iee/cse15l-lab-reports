@@ -3,7 +3,7 @@
 ### Part 1
 Step 1:<br />
 The post made by the student would be the following:<br />
-![Image](lab5/1.png)<br />
+![Image](lab5/1new.png)<br />
 The failure-inducing output is the following:<br />
 ![Image](lab5/2.png)<br />
 The result of the testing program is the following:<br />
@@ -49,4 +49,6 @@ The content of `ListExamples.java` after fixing the bug is the following:<br />
 ![Image](lab5/9.png)<br />
 The content of `TestListExamples.java` after fixing the bug is the following:<br >
 ![Image](lab5/10.png)<br />
+The result of running tests on the modified files after fixing the bug is the following:<br />
+![Image](lab5/11.png)<br />
 
